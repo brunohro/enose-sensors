@@ -9,7 +9,7 @@ const char* ssid = "Redmi_Note_Java";
 const char* password = "12345678";
 
 //Ip e porta do websocket
-const char* websocket_server = "192.168.21.91"; 
+const char* websocket_server = "192.168.147.91"; 
 const int websocket_port = 8765;
 
 WebSocketsClient webSocket;
