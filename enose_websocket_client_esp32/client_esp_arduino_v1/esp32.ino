@@ -9,7 +9,7 @@ const char* ssid = "Redmi_Note_Java";
 const char* password = "12345678";
 
 //Ip e porta do websocket
-const char* websocket_server = "192.168.147.91"; 
+const char* websocket_server = "192.168.147.215"; // endereço ip da máquina de Samuel
 const int websocket_port = 8765;
 
 WebSocketsClient webSocket;
@@ -38,5 +38,5 @@ void loop() {
     webSocket.sendTXT(sensor_data);
     Serial.println("MENSAGEM ENVIADA");
   }
-  delay(1000); 
+ delay(1000);
 }
