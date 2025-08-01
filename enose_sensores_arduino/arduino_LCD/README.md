@@ -7,7 +7,7 @@ Este projeto utiliza um **Arduino** para ler dados de 4 sensores de gás do tipo
 - Leitura dos sensores: **MQ3, MQ5, MQ2 e MQ135**
 - Cálculo da **média** de 10 amostras para cada sensor
 - Exibição das médias no **display LCD I2C 16x2**
-- Envio das médias para o **monitor serial** no formato CSV
+- Envio dos dados médios para um servidor via **WebSocket** 
 
 ## 🛠️ Materiais Utilizados
 
@@ -30,8 +30,8 @@ Este projeto utiliza um **Arduino** para ler dados de 4 sensores de gás do tipo
 
 O módulo LCD I2C é conectado via protocolo **I2C**:
 
-- SDA → A4 (no Uno)
-- SCL → A5 (no Uno)
+- SDA → 20 (no Uno)
+- SCL → 21 (no Uno)
 
 ## 🧠 Lógica do Código
 
